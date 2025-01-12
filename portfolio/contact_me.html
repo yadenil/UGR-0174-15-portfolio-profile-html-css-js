@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=".\contact_me.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header class="introduction">
+      <a class="logo" href="index.html"> Yadeni. </a>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <nav class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="About_me.html">About me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact_me.html" class="active">Contact</a>
+        <a href="services.html">Services</a>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <h2>contact me</h2>
+        <article class="contact-way">
+          <div>
+            <h4>Phone</h4>
+            <p>Phone +251931316345</p>
+            <p>Phone +251980776222</p>
+          </div>
+
+          <div>
+            <h4>Address</h4>
+            <p>Ethiopia-Addis Ababa-4 kilo campus</p>
+          </div>
+
+          <div>
+            <h4>Email</h4>
+            <p>yadenilema3@gmail.com</p>
+          </div>
+        </article>
+        <div class="form sec">
+          <form action="/submit-form">
+            <div class="form section">
+              <label for="Name">Your Name:</label>
+              <input
+                type="text"
+                id="Name"
+                name="Name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <div class="form section">
+              <label for="Email">Your Email:</label>
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                placeholder=" Your Email"
+                required
+              />
+            </div>
+
+            <div class="form section">
+              <label for="message">Your message:</label>
+              <textarea
+                type="text"
+                class="message"
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Yout message"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="send">Send Message</button>
+          </form>
+        </div>
+
+        <div class="icon">
+          <a href="https://web.facebook.com/profile.php?id=61563435365329"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/yadeni-lemma-2a0b3130b/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6CHZsJvcQWaKUDWAUeAwgw%3D%3D"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://x.com/LemaYadeni/photo"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Yadeni Lemma. All rights reserved</p>
+    </footer>
+    <script src="./ham.js"></script>
+  </body>
+</html>
